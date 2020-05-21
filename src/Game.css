@@ -1,0 +1,73 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 36px;
+  background-color: rgb(87, 37, 92);
+  color: cornsilk;
+}
+
+ol,
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+li {
+  display: block;
+  margin-left: -30px;
+}
+
+.board-row {
+  margin-left: 20px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin: 30px;
+}
+
+.game-status {
+  margin: 10px 20px;
+}
+
+.square {
+  background: #8b2c94;
+  border: 1px solid #c2be8c;
+  float: left;
+  font-size: 82px;
+  font-weight: bold;
+  line-height: 32px;
+  height: 144px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  width: 144px;
+  cursor: pointer;
+}
+
+.square:focus {
+  outline: none;
+}
+
+button {
+  background-color: cornsilk;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 200px;
+}
+
+@media (max-width: 420px) {
+  .square {
+    max-height: 90px;
+    max-width: 90px;
+  }
+}
