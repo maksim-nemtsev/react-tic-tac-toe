@@ -1,5 +1,5 @@
 Tic Tac Toe game
-Watch live on Netlify 
+Watch live on Netlify (https://quirky-murdock-7173cb.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
