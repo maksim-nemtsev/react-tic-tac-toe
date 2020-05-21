@@ -65,7 +65,7 @@ button {
   width: 200px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 760px) {
   .square {
     max-height: 90px;
     max-width: 90px;
